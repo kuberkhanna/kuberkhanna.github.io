@@ -1,0 +1,166 @@
+.carousel-content {
+    color: white;
+    display: flex;
+    align-items: center;
+/*     background-color: red; */
+}
+img{
+  max-width: 100%;
+/*  height: auto;*/
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.navbar{
+  border-radius: 0 !important;
+  font-family: "Raleway";
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+.index_div_item{
+    display: block;
+    height: 400px;
+}
+
+.index_div_item a .well{
+    height: 400px;
+}
+
+ .row-eq-height{
+    overflow: hidden; 
+}
+
+.row-eq-height > [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.myrow {
+  /* background-color: #white; */ /*change here*/
+ /* background: "test.png";*/
+/* background-attachment: url(test.png); */
+    background: url(../images/test.png) no-repeat;
+    background-size: cover;
+    width:100%;
+    height: auto;
+    color: black;
+    padding:30px;
+    z-index:90;
+    font-family:Raleway;
+    overflow: auto;
+    overflow-x: hidden;
+     /*// hide horizontal*/
+}
+
+/*<style>
+.panel-default {
+  background-color: #red !important ;
+}</style>*/
+.media-heading {
+  font-size: 2.5vmin;
+
+}
+
+.icon-list{
+  font-size: 3.6vmin;
+
+}
+
+#box1{
+    font-family: "Raleway";
+    color: #B6B7C2;   /* about me*/
+    padding-top: 10px;
+    min-width:50%;
+    float:left;
+    height: auto;
+    padding-left: 5%;
+
+}
+
+#box2{
+    font-family: "Raleway";
+    color: white;  
+    width: 25%;
+    float:left;
+    height: auto;
+    padding-top: 5px;
+    padding-left: 5%;
+}
+
+#box3{
+  font-family: "Raleway";
+  color: white;   
+  width: 75%;
+  float:left;
+  padding-top: 10px;
+  padding-left: 5%;
+}
+
+
+
+#contact{
+   /* background: url(../images/bg4-copy.png) no-repeat;*/
+  /*  background-color: black;*/
+   background: url(../images/bg5-copy.png) no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 100%;
+    color: white;
+    padding:20px;
+    z-index:90;
+    font-family:Raleway;
+    overflow: auto;
+    overflow-x: hidden;
+     overflow-y: hidden;
+
+}
+
+.nav{
+padding-left: 10px;
+padding-top:  3px;
+}
+
+.well{
+background-color: #243342 !important;
+
+ display: table-cell;
+ z-index:90;
+/* height: 210px;*/
+height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+/*not for the navbar - a and a:hover*/
+a {
+color: white;
+
+
+}
+
+a:hover {
+  color: #8ef0dd;
+  text-decoration: none;
+
+}
+
+
+b{
+  color: black;
+}
+
+b:hover{
+  
+  color: #8ef0dd;
+    text-decoration: none;
+
+}
+#finalfooter{
+margin: 0 auto;
+}

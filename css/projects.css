@@ -1,0 +1,100 @@
+
+.navbar-default {
+    background-color: #1D1F20;
+    font-family:Roboto Condensed;
+    z-index:80;
+}
+
+img {
+  max-width: 100%;
+ /* height: auto;*/
+}
+
+.navbar{
+  border-radius: 0 !important;
+  font-family: "Raleway";
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+.newrow{
+    background-color: white;
+    background-size: cover;
+    width:100%;
+    height: auto;
+    color: black;
+    padding:60px;
+    z-index:90;
+    /*font-family:Raleway;*/
+    overflow: auto;
+    overflow-x: hidden;
+     /*// hide horizontal*/
+}
+.norow{
+    background-color: white;
+    background-size: cover;
+    width:100%;
+    height: auto;
+    color: black;
+    padding:80px;
+    z-index:90;
+    overflow: auto;
+    overflow-x: hidden;
+     /*// hide horizontal*/
+}
+
+.nav{
+padding-left: 10px;
+padding-top:  3px;
+}
+
+.navbar{
+  border-radius: 0 !important;
+  font-family: "Raleway";
+  margin-bottom: 0;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+
+#box1{
+   /*background-color: #1D1F20; */
+/*background-color: #243342;*/
+ background: url(../images/bg3projects.png) no-repeat;
+
+       background-size: cover;  /* about me and contact*/
+/*    padding-top: 10px;*/
+    width:100%;
+    height: auto;
+    color: white;
+    padding:10px;
+     z-index:90;
+    overflow: auto;
+    overflow-x: hidden;
+/*    padding-left: 5%;*/
+
+}
+
+
+a {
+color: black;
+
+
+}
+
+a:hover {
+  color: #8ef0dd;
+  text-decoration: none;
+
+}
+
+
+.well{
+background-color: #1d1f20  !important;
+
+display:flex;
+ z-index:90;
+/* height: 210px;*/
+height: auto;
+    overflow: auto;
+    overflow-x: hidden;
+}
