@@ -1,2 +1,2 @@
-# guninkhanna.github.io
+# kuberkhanna.github.io
 - My personal website
